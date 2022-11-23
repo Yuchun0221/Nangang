@@ -15,6 +15,22 @@
 <h1><a href="#2">忠孝復興</a></h1>
 <h1><a href="#3">忠孝新生</a></h1>
 </div>
+    
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
 
 <div id="content" style="width:1200px;height:300px;float:right;">
 <a name="1"></a>

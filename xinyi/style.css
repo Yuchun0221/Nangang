@@ -4,7 +4,7 @@
     width: 200px;
     height: 6000px;
 }
-.content{
+#content{
     width:1400px;
     height:300px;
     float: inline-start;
